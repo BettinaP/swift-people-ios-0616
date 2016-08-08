@@ -16,3 +16,6 @@ extension Int {
     }
 }
 
+//we can call this computed property on ins in the entire program
+//all files in program have access to this extension.
+

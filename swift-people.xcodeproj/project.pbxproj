@@ -17,6 +17,7 @@
 		4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */; };
 		4DEE92851BFCD7AC00132675 /* PersonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92841BFCD7AC00132675 /* PersonSpec.swift */; };
 		4DEE92871BFCD7C100132675 /* Int+OrdinalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */; };
+		DED915A91D3FBE850019EE8D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED915A81D3FBE850019EE8D /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4DEE92841BFCD7AC00132675 /* PersonSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSpec.swift; sourceTree = "<group>"; };
 		4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+OrdinalSpec.swift"; sourceTree = "<group>"; };
 		4E2C00E39568F3F37EB139A7 /* Pods-swift-peopleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-peopleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-peopleTests/Pods-swift-peopleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DED915A81D3FBE850019EE8D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		E10D4614E27C9C6081D6AEF4 /* Pods_swift_peopleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_peopleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01FE0B9CB606344137B1D3E /* Pods-swift-peopleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-peopleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-peopleTests/Pods-swift-peopleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 		4DEE925E1BFBDA3700132675 /* swift-people */ = {
 			isa = PBXGroup;
 			children = (
+				DED915A81D3FBE850019EE8D /* Person.swift */,
 				4DEE925F1BFBDA3700132675 /* AppDelegate.swift */,
 				4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */,
 				4DEE927F1BFCCC5000132675 /* Resources */,
@@ -291,6 +294,7 @@
 			files = (
 				4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */,
 				4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */,
+				DED915A91D3FBE850019EE8D /* Person.swift in Sources */,
 				4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
